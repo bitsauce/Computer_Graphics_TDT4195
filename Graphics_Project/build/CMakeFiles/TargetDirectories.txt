@@ -1,0 +1,4 @@
+A:/Programming/gloom/build/CMakeFiles/gloom.dir
+A:/Programming/gloom/build/CMakeFiles/ALL_BUILD.dir
+A:/Programming/gloom/build/gloom/vendor/glfw/CMakeFiles/ALL_BUILD.dir
+A:/Programming/gloom/build/gloom/vendor/glfw/src/CMakeFiles/glfw.dir

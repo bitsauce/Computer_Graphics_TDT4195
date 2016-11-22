@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GLFW3", "GLFW3", "{1EB888E5-4929-3811-815B-FDA51BAAA377}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "gloom\vendor\glfw\src\glfw.vcxproj", "{590DA0A9-1CE4-3895-AA63-A753974FE6A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gloom", "gloom.vcxproj", "{E9B02233-FB57-35CB-93BA-8EBDB0211201}"
+	ProjectSection(ProjectDependencies) = postProject
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8} = {590DA0A9-1CE4-3895-AA63-A753974FE6A8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Debug|Win32.Build.0 = Debug|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Release|Win32.ActiveCfg = Release|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Release|Win32.Build.0 = Release|Win32
+		{E9B02233-FB57-35CB-93BA-8EBDB0211201}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9B02233-FB57-35CB-93BA-8EBDB0211201}.Debug|Win32.Build.0 = Debug|Win32
+		{E9B02233-FB57-35CB-93BA-8EBDB0211201}.Release|Win32.ActiveCfg = Release|Win32
+		{E9B02233-FB57-35CB-93BA-8EBDB0211201}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8} = {1EB888E5-4929-3811-815B-FDA51BAAA377}
+	EndGlobalSection
+EndGlobal

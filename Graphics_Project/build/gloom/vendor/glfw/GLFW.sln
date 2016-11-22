@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{8333E1BB-C468-37DB-BBE4-A1B2D714C50D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GLFW3", "GLFW3", "{1EB888E5-4929-3811-815B-FDA51BAAA377}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{1B386F8B-D0D7-320B-A91B-4BF16F197EE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8} = {590DA0A9-1CE4-3895-AA63-A753974FE6A8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "src\glfw.vcxproj", "{590DA0A9-1CE4-3895-AA63-A753974FE6A8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B386F8B-D0D7-320B-A91B-4BF16F197EE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B386F8B-D0D7-320B-A91B-4BF16F197EE3}.Release|Win32.ActiveCfg = Release|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Debug|Win32.Build.0 = Debug|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Release|Win32.ActiveCfg = Release|Win32
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B386F8B-D0D7-320B-A91B-4BF16F197EE3} = {8333E1BB-C468-37DB-BBE4-A1B2D714C50D}
+		{590DA0A9-1CE4-3895-AA63-A753974FE6A8} = {1EB888E5-4929-3811-815B-FDA51BAAA377}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
