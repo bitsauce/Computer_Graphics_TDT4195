@@ -13,7 +13,7 @@ enum Shape
 	HEXAGON_WHITE,
 	HEXAGON_BLACK,
 	STAR,
-	PIE,
+	CAKE,
 	SHAPE_COUNT
 };
 

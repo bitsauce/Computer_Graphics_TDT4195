@@ -74,7 +74,8 @@ const Shape getShapeByName(const std::string &name)
 	if(name == "HEXAGON_WHITE") return HEXAGON_WHITE;
 	if(name == "HEXAGON_BLACK") return HEXAGON_BLACK;
 	if(name == "STAR") return STAR;
-	if(name == "PIE") return PIE;
+	if(name == "CAKE") return CAKE;
+	printf("Invalid shape 's'\n", name.c_str());
 	return SHAPE_NONE;
 }
 
@@ -381,7 +382,7 @@ void runProgram(GLFWwindow* window)
     glClearColor(0.3f, 0.3f, 0.4f, 1.0f);
 
 	// Create scene
-	SceneNode *root = createScene("../EASY_01");
+	SceneNode *root = createScene("../boards/EASY_01");
 
 	// Load our shader
 	Gloom::Shader shader;

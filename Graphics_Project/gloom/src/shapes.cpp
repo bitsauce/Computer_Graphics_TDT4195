@@ -395,7 +395,7 @@ GLuint createShape(const Shape shape)
 		}
 		break;
 
-		case PIE:
+		case CAKE:
 		{
 			// Set shape values
 			triangleCount = 12;
